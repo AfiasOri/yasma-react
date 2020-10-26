@@ -24,6 +24,7 @@ export default () => {
 	);
 
 	const renderAuthButtons = () => {
+		console.log(user);
 		return user.idToken ? (
 			<>
 				<Item name={user.userData.credentials.userName} icon='user' position='right' />

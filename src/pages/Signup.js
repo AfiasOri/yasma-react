@@ -3,7 +3,7 @@ import { Button, Form, Grid, Header, Message, Segment } from 'semantic-ui-react'
 import { withRouter, Link } from 'react-router-dom';
 
 import { userContext } from '../context/userContext';
-import api from '../utils/api';
+import api, { login } from '../utils/api';
 
 const initialState = { userName: '', email: '', password: '', confirmPassword: '', loading: false, errors: {} };
 
@@ -25,16 +25,16 @@ export default withRouter(({ history }) => {
 		setState({ ...state, loading: true, errors: {} });
 
 		try {
-			const res = await api.post('/signup', {
+			await api.post('/signup', {
 				email: state.email,
 				userName: state.userName,
 				password: state.password,
 				confirmPassword: state.confirmPassword,
 			});
 			setState({ ...state, loading: false, errors: {} });
-			localStorage.setItem('idToken', `Bearer ${res.data.token}`);
-			const user = await api.post('/login', { email: state.email, password: state.password });
-			setUser({ ...user.data, idToken: `Bearer ${res.data.token}` });
+
+			const user = await login(state.email, state.password);
+			setUser({ ...user });
 			history.push('/');
 		} catch (e) {
 			setState({ ...state, errors: e.response.data, loading: false });
