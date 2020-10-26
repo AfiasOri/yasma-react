@@ -1,0 +1,49 @@
+{
+	"userData": {
+		"credentials": {
+			"bio": "this is my blog",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/yasma-95d06.appspot.com/o/246382814891.jpg?alt=media",
+			"website": "http://google.com",
+			"userId": "yilpot9pdHZQyuaLOTjNoh3U23k1",
+			"createdAt": "2020-10-17T22:32:57.780Z",
+			"email": "poster@gmail.com",
+			"role": "User",
+			"userName": "Poster"
+		},
+		"likes": [
+			{
+				"userName": "Poster",
+				"postId": "AHXbGCtYt2RLTLBTCc2B"
+			}
+		],
+		"notifications": [
+			{
+				"sender": "liker",
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
+				"read": true,
+				"createdAt": "2020-10-18T18:50:21.500Z",
+				"type": "comment",
+				"recipient": "Poster",
+				"notificationId": "zluHg1GdHeeIRO2RTQ5N"
+			},
+			{
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
+				"createdAt": "2020-10-18T18:49:37.822Z",
+				"type": "like",
+				"read": true,
+				"sender": "liker",
+				"recipient": "Poster",
+				"notificationId": "BmJ3ORxBs6zCsqlNWmKH"
+			},
+			{
+				"sender": "liker",
+				"type": "like",
+				"recipient": "Poster",
+				"read": true,
+				"createdAt": "2020-10-18T17:18:26.582Z",
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
+				"notificationId": "LAAI9O3FUsjB1EVLtbvL"
+			}
+		]
+	}
+}
