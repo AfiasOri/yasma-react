@@ -45,8 +45,8 @@ export default () => {
 					<Input icon='search' placeholder='Search...' size='small' />
 				</Item>
 				<Item name='home' icon='home' position='right' />
-				<Item name='posts' icon='archive' />
-				<Item name='users' icon='users' />
+				<Item name='new' icon='plus circle' />
+				<Item name='notifications' icon='world' />
 				{renderAuthButtons()};
 			</Container>
 		</Menu>

@@ -1,47 +1,70 @@
 {
 	"userData": {
 		"credentials": {
-			"bio": "this is my blog",
 			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/yasma-95d06.appspot.com/o/246382814891.jpg?alt=media",
-			"website": "http://google.com",
+			"bio": "this is my blog",
 			"userId": "yilpot9pdHZQyuaLOTjNoh3U23k1",
+			"website": "http://google.com",
 			"createdAt": "2020-10-17T22:32:57.780Z",
-			"email": "poster@gmail.com",
 			"role": "User",
+			"email": "poster@gmail.com",
 			"userName": "Poster"
 		},
 		"likes": [
 			{
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
+				"userName": "Poster"
+			}
+		],
+		"comments": [
+			{
+				"createdAt": "2020-10-26T22:26:39.496Z",
+				"body": "first comment to first post",
 				"userName": "Poster",
+				"userImage": "https://firebasestorage.googleapis.com/v0/b/yasma-95d06.appspot.com/o/246382814891.jpg?alt=media",
+				"postId": "AHXbGCtYt2RLTLBTCc2B"
+			},
+			{
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
+				"userName": "Poster",
+				"createdAt": "2020-10-26T22:24:12.715Z",
+				"userImage": "https://firebasestorage.googleapis.com/v0/b/yasma-95d06.appspot.com/o/246382814891.jpg?alt=media",
+				"body": "first comment to first post"
+			},
+			{
+				"userName": "Poster",
+				"userImage": "https://firebasestorage.googleapis.com/v0/b/yasma-95d06.appspot.com/o/246382814891.jpg?alt=media",
+				"createdAt": "2020-10-26T22:26:45.002Z",
+				"body": "first comment to first post1",
 				"postId": "AHXbGCtYt2RLTLBTCc2B"
 			}
 		],
 		"notifications": [
 			{
-				"sender": "liker",
 				"postId": "AHXbGCtYt2RLTLBTCc2B",
-				"read": true,
 				"createdAt": "2020-10-18T18:50:21.500Z",
-				"type": "comment",
+				"sender": "liker",
 				"recipient": "Poster",
+				"type": "comment",
+				"read": true,
 				"notificationId": "zluHg1GdHeeIRO2RTQ5N"
 			},
 			{
-				"postId": "AHXbGCtYt2RLTLBTCc2B",
-				"createdAt": "2020-10-18T18:49:37.822Z",
-				"type": "like",
 				"read": true,
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
 				"sender": "liker",
 				"recipient": "Poster",
+				"type": "like",
+				"createdAt": "2020-10-18T18:49:37.822Z",
 				"notificationId": "BmJ3ORxBs6zCsqlNWmKH"
 			},
 			{
+				"createdAt": "2020-10-18T17:18:26.582Z",
+				"read": true,
 				"sender": "liker",
+				"postId": "AHXbGCtYt2RLTLBTCc2B",
 				"type": "like",
 				"recipient": "Poster",
-				"read": true,
-				"createdAt": "2020-10-18T17:18:26.582Z",
-				"postId": "AHXbGCtYt2RLTLBTCc2B",
 				"notificationId": "LAAI9O3FUsjB1EVLtbvL"
 			}
 		]
